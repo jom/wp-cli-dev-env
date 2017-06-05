@@ -1,0 +1,27 @@
+{
+    "name": "jom/wp-cli-dev-helpers",
+    "description": "My WP-CLI dev helpers",
+    "homepage": "https://github.com/jom/wp-cli-dev-helpers/",
+    "type": "wp-cli-package",
+    "keywords": [
+        "wordpress"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacob Morrison",
+            "email": "jomorrison@gmail.com",
+            "role": "lead"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/yaml": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jom\\WPDEV\\": "src"
+        },
+        "files": ["wpcli.php"]
+    }
+}
